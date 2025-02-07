@@ -124,17 +124,3 @@ This project is an e-commerce website developed through a series of milestones, 
    
 5. Open http://localhost:3000/ in your browser.
 
----
-
-## 🚀 Next Steps
-In the next milestone, we’ll continue improving the app by adding more features, such as user authentication and authorization.
-
----
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
