@@ -213,6 +213,86 @@ app.delete("/api/products/:id", async (req, res) => {
 });
 
 
+Milestone 15: Navbar Component & Navigation
+
+✅ Goals:
+
+Created a new Nav component with links to all pages:
+
+Home
+
+My Products
+
+Add Product
+
+Cart
+
+Made the Navbar responsive for all screen sizes.
+
+Ensured smooth navigation across all pages.
+
+Improved user experience by providing consistent and intuitive navigation.
+
+✅ Implementation Steps:
+
+Created a Navbar component:
+
+Developed a reusable Navbar component with navigation links.
+
+Styled the Navbar using Tailwind CSS to ensure responsiveness.
+
+Added Navbar to all pages:
+
+Imported and placed the Navbar in every relevant page.
+
+Ensured proper routing and navigation using React Router.
+
+Made the Navbar responsive:
+
+Used flexbox and media queries to adjust the Navbar layout.
+
+Implemented a mobile-friendly dropdown menu.
+
+✅ Why This Matters?
+
+Provides a seamless navigation experience for users.
+
+Improves usability and accessibility across different devices.
+
+Enhances code reusability by using a single component across multiple pages.
+
+✅ Submission Steps:
+
+Pushed the updated code to the GitHub repository.
+
+Updated the README.md file with Milestone 15 details.
+
+Shared the repository link for submission.
+
+▶ How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/your-username/E_Commerce_Follow_Along.git  
+cd E_Commerce_Follow_Along  
+
+Install dependencies for both frontend and backend:
+
+cd frontend && npm install  
+cd ../backend && npm install  
+
+Run the backend server:
+
+cd backend
+npm start  
+
+Run the frontend application:
+
+cd frontend  
+npm start  
+
+Open http://localhost:3000/ in your browser.
+
 
 ## ▶ How to Run the Project  
 1. Clone the repository:  
