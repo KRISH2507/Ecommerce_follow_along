@@ -318,6 +318,30 @@ Implemented loading indicators for better user experience.
 ✅ Shared the repository link for submission.
 
 
+Milestone 17: Add to Cart Functionality
+✅ Goals:
+
+1️⃣ Update User Schema for Cart Functionality
+Modified the user schema to include a cart field.
+Structured the cart field to store an array of product objects containing:
+Product ID
+Name
+Price
+Quantity
+2️⃣ Backend - Add to Cart Endpoint
+Created an endpoint to receive product details and store them in the user's cart.
+Ensured secure handling of requests and efficient database updates using MongoDB & Mongoose.
+3️⃣ Frontend - Add to Cart Integration
+Connected the "Add to Cart" button from the Product Info Page to the backend API.
+Stored cart data in the database and updated the UI dynamically.
+4️⃣ User Experience Enhancements
+Implemented a notification system to confirm when a product is added to the cart.
+Ensured real-time cart updates without needing to refresh the page.
+5️⃣ Submission Steps
+✅ Pushed the updated code to the GitHub repository.
+✅ Updated the README.md file with Milestone 17 details.
+✅ Shared the repository link for submission.
+
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    ```bash  
