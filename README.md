@@ -471,6 +471,39 @@ Implemented success and error response messages for clear user feedback.
 ✅ Shared the repository link for submission.
 
 
+Milestone 23: Address Selection and Order Functionality
+What Was Achieved in This Milestone
+In Milestone 23, we focused on adding the "Place Order" functionality, allowing users to select a delivery address and place an order. The changes made were crucial to the checkout flow of the e-commerce application. The tasks completed include:
+
+Key Features Implemented:
+Place Order Button:
+
+A "Place Order" button was added inside the cart page.
+
+This button navigates users to the Select Address Page where they can choose a delivery address for their order.
+
+Select Address Page:
+
+Created a Select Address Page that displays a list of all addresses linked to the user's profile.
+
+Users can choose one of their saved addresses as the delivery address for the order.
+
+The page ensures a smooth user experience by allowing them to select an address and move forward with the order placement.
+
+Backend Endpoint for Address Retrieval:
+
+A new backend endpoint was written that fetches all saved addresses of the authenticated user from the database.
+
+This endpoint sends the addresses to the frontend, ensuring users can see all their stored addresses when selecting a delivery address.
+
+MongoDB Schema for Orders:
+
+Designed and implemented a Mongoose schema to handle the creation of orders in the backend.
+
+The schema allows for storing order details, including the selected address, products, and user information.
+
+Orders are associated with users, enabling us to track and manage their orders effectively.
+
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    ```bash  
