@@ -504,6 +504,27 @@ The schema allows for storing order details, including the selected address, pro
 
 Orders are associated with users, enabling us to track and manage their orders effectively.
 
+Milestone 24: Order Confirmation Page
+What Was Achieved in This Milestone
+In this milestone, we implemented the Order Confirmation Page in the frontend of our eCommerce application. The page includes:
+
+✅ Displaying all the products being ordered.
+✅ Showing the address selected by the user for delivery.
+✅ Calculating and displaying the total order value.
+✅ Adding a Place Order button to finalize the purchase.
+
+Implementation Details
+Used React state management to fetch and display order details.
+
+Ensured the user-selected address is dynamically updated on the confirmation page.
+
+Styled the page using Tailwind CSS for a clean UI.
+
+Implemented logic to calculate and display the total price of the cart.
+
+Integrated the Place Order button with a handler function to proceed with the order.
+
+
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    ```bash  
