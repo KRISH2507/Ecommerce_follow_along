@@ -524,6 +524,60 @@ Implemented logic to calculate and display the total price of the cart.
 
 Integrated the Place Order button with a handler function to proceed with the order.
 
+🚀 Milestone 25 - Order Placement API
+✅ Steps to Implement
+Create an Endpoint:
+
+Route: POST /api/orders
+
+Receives: products, user email, address details
+
+Retrieve User ID from Email:
+
+Query the users collection to fetch the _id of the user based on the provided email.
+
+Process Each Product as a Separate Order:
+
+For each product in the request, create a new order entry.
+
+Store the order details in the orders collection in MongoDB.
+
+Order Schema (Mongoose Model):
+
+User ID (from retrieved user)
+
+Product details (product ID, name, price, quantity)
+
+Address details
+
+Order status (default: pending)
+
+Timestamp
+
+Save Order in MongoDB:
+
+Use Mongoose to insert the new orders into the orders collection.
+
+Response:
+
+Success: { message: "Order placed successfully", orderDetails }
+
+Failure: { error: "Failed to place order" }
+
+Milestone 25: Order Placement API
+✅ Achievements
+Developed an endpoint (POST /api/orders) to place an order.
+
+Retrieved user _id from the provided email before processing the order.
+
+Created individual order entries for each product in the order.
+
+Stored order details, including address and product data, in MongoDB.
+
+Ensured a structured order flow with timestamps and a default pending status.
+
+
+
 
 ## ▶ How to Run the Project  
 1. Clone the repository:  
