@@ -576,6 +576,70 @@ Stored order details, including address and product data, in MongoDB.
 
 Ensured a structured order flow with timestamps and a default pending status.
 
+## Milestone 26: Retrieve User Orders API
+
+### 🚀 **Overview**
+In this milestone, we implemented an API endpoint to retrieve all orders associated with a specific user. This endpoint allows us to fetch orders based on the user's email.
+
+### 🎯 **Learning Goals**
+By completing this milestone, we learned:
+- How to query a database using user-specific information.
+- How to fetch all orders for a given user using their email.
+- How to structure API responses efficiently.
+
+### 📝 **Steps Implemented**
+1. **Created an endpoint:**
+   - Route: `GET /api/orders`
+   - Accepts: `user email` as a query parameter.
+
+2. **Retrieved User ID from Email:**
+   - Queried the `users` collection to fetch the `_id` of the user corresponding to the given email.
+
+3. **Fetched Orders Using User ID:**
+   - Used the `_id` to retrieve all orders related to that user from the `orders` collection.
+
+4. **Returned the Orders in Response:**
+   - If orders were found, returned an array of order objects.
+   - If no orders were found, returned an appropriate message.
+
+### ✅ **API Response Structure**
+- **Success:**
+  ```json
+  {
+    "message": "Orders retrieved successfully",
+    "orders": [
+      {
+        "_id": "orderId",
+        "userId": "userId",
+        "products": [
+          {
+            "productId": "123",
+            "name": "Product Name",
+            "price": 100,
+            "quantity": 2
+          }
+        ],
+        "address": "Shipping Address",
+        "status": "pending",
+        "timestamp": "2025-03-31T12:00:00Z"
+      }
+    ]
+  }
+  ```
+- **Failure:**
+  ```json
+  {
+    "error": "User not found or no orders available"
+  }
+  ```
+
+### 📥 **Submission Guidelines**
+- Pushed all code changes to the GitHub repository.
+- Updated the README file to summarize progress for Milestone 26.
+- Shared the repository link for submission.
+
+This milestone helped us understand how to fetch and manage user orders efficiently in an eCommerce backend. 🚀
+
 
 
 
