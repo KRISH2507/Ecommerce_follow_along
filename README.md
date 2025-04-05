@@ -640,6 +640,39 @@ By completing this milestone, we learned:
 
 This milestone helped us understand how to fetch and manage user orders efficiently in an eCommerce backend. 🚀
 
+Ecommerce-Follow-Along
+Project Overview
+This repository contains the code for the Ecommerce Follow-Along project. The goal of this project is to build a functional e-commerce application that allows users to browse, order, and manage their products. Each milestone of the project builds on the previous one, gradually adding more features to the application.
+
+Milestone 27: My Orders Page
+What was achieved in Milestone 27:
+Created the "My Orders" page: This page allows users to view all their orders placed on the e-commerce platform.
+
+Implemented API integration: Sent a GET request to the my-orders endpoint to fetch all the orders associated with the logged-in user. This request uses the user's email to retrieve relevant data from the backend.
+
+Displayed user orders: The fetched order data is displayed in a clean and user-friendly manner on the "My Orders" page.
+
+Navbar Update: A link to the "My Orders" page was added to the navigation bar, improving the overall navigation experience for the user.
+
+Frontend Layout: The page was styled and structured to display order details, such as order ID, product names, quantities, and order dates.
+
+How to Access the "My Orders" Page:
+Ensure you're logged in to the platform.
+
+Navigate to the "My Orders" link in the navbar.
+
+The page will display all the orders associated with the logged-in user, showing their order details.
+
+API Endpoint:
+GET /my-orders: This endpoint retrieves all the orders placed by the user. The request must include the user's email in order to fetch the correct orders.
+
+Technologies Used:
+HTML, CSS, and JavaScript for the frontend.
+
+Fetch API to send a GET request to the server.
+
+Backend endpoints to retrieve and manage user orders.
+
 
 
 
