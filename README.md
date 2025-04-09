@@ -674,6 +674,39 @@ Fetch API to send a GET request to the server.
 Backend endpoints to retrieve and manage user orders.
 
 
+# Ecommerce-Follow-Along 🛒
+
+This is a full-stack ecommerce application built as part of a step-by-step learning journey. The project covers frontend, backend, database integration, and various ecommerce features.
+
+---
+Milestone 28: Cancel Order Functionality
+Backend:
+Implemented an endpoint to cancel orders by updating their status.
+Checked for order validity and prevented duplicate cancellations.
+Frontend:
+Added a cancel button (visible only for active orders).
+Synced UI with backend and reflected status changes instantly.
+Completion: Repository updated and shared.
+
+
+Milestone 29: PayPal Payment Option (UI)
+Setup Steps:
+Created a PayPal developer account and retrieved sandbox credentials.
+Displayed payment method choices on the confirmation page: COD and PayPal.
+Used conditional rendering to show PayPal button when selected.
+Completion: Successfully staged for next milestone—full payment integration.
+
+
+Milestone 30: PayPal Integration
+Backend:
+Integrated PayPal sandbox setup with proper API credentials.
+Frontend:
+Added @paypal/react-paypal-js, wrapped app in PayPalScriptProvider, and configured PayPalButtons.
+Handled transaction lifecycle: approval, capture, and feedback.
+Security & UX:
+Managed payment responses securely and displayed real-time feedback.
+Completion: Feature completed and milestone submitted.
+
 
 
 ## ▶ How to Run the Project  
